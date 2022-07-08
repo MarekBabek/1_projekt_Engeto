@@ -45,7 +45,7 @@ rozdeleni = split_list(TEXTS)
 
 # funkce pro nahrazení hvězdami namísto délky stringu
 def asterisks_replace_x(str1):
-    return '*' * (len(str1))
+    return "*" * (len(str1))
 
 # Zadaný slovník uživatelů
 users = {"bob": "123", "ann": "pass123", "mike": "password123", "liz": "pass123"}
@@ -66,7 +66,7 @@ male_pismeno = 0
 cele_velke_slovo = 0
 slovo_s_cislem = 0
 soucet_vsech_cisel = 0
-symbol = '|'
+symbol = "|"
 
 # Zjištění, jestli zadané údaje odpovídají komukoliv z registrovaných uživatelů
 if users.get(login_name) == login_password:
@@ -112,10 +112,10 @@ if users.get(login_name) == login_password:
         # Odstranění přebytečných symbolů a následné doplnění všech slov z textu (1) do listu
         list_text = []
         for slovo in text_1:
-            if '.' in slovo:
-                list_text.append(slovo.replace('.', ''))
-            elif ',' in slovo:
-                list_text.append(slovo.replace(',', ''))
+            if "." in slovo:
+                list_text.append(slovo.replace(".", ""))
+            elif "," in slovo:
+                list_text.append(slovo.replace(",", ""))
             else:
                 list_text.append(slovo)
 
@@ -129,9 +129,9 @@ if users.get(login_name) == login_password:
 
         #Vypsání ohraničeného záhlaví úloha č. 7
         print(
-            '', '-' * 30, '\n',
-            'LEN|', ' ' * 2, 'OCCURENCES', ' ' * 2, '|NR.', '\n',
-                '-' * 30
+            "", "-" * 30, "\n",
+            "LEN|", " " * 2, "OCCURENCES", " " * 2, "|NR.", "\n",
+                "-" * 30
             )
 
         # Vypsání sloupcového grafu pomocí formátu a for cyklu
@@ -169,10 +169,10 @@ if users.get(login_name) == login_password:
         # Odstranění přebytečných symbolů a následné doplnění všech slov z textu (2) do listu
         list_text = []
         for slovo in text_2:
-            if '.' in slovo:
-                list_text.append(slovo.replace('.', ''))
-            elif ',' in slovo:
-                list_text.append(slovo.replace(',', ''))
+            if "." in slovo:
+                list_text.append(slovo.replace(".", ""))
+            elif "," in slovo:
+                list_text.append(slovo.replace(",", ""))
             else:
                 list_text.append(slovo)
 
@@ -186,9 +186,9 @@ if users.get(login_name) == login_password:
 
         # Vypsání ohraničeného záhlaví úloha č. 7
         print(
-            '', '-' * 30, '\n',
-            'LEN|', ' ' * 2, 'OCCURENCES', ' ' * 2, '|NR.', '\n',
-                '-' * 30
+            "", "-" * 30, "\n",
+            "LEN|", " " * 2, "OCCURENCES", " " * 2, "|NR.", "\n",
+                "-" * 30
             )
 
         # Vypsání sloupcového grafu pomocí formátu a for cyklu
@@ -226,10 +226,10 @@ if users.get(login_name) == login_password:
         # Odstranění přebytečných symbolů a následné doplnění všech slov z textu (3) do listu
         list_text = []
         for slovo in text_3:
-            if '.' in slovo:
-                list_text.append(slovo.replace('.', ''))
-            elif ',' in slovo:
-                list_text.append(slovo.replace(',', ''))
+            if "." in slovo:
+                list_text.append(slovo.replace(".", ""))
+            elif "," in slovo:
+                list_text.append(slovo.replace(",", ""))
             else:
                 list_text.append(slovo)
 
@@ -243,9 +243,9 @@ if users.get(login_name) == login_password:
 
         # Vypsání ohraničeného záhlaví úloha č. 7
         print(
-            '', '-' * 30, '\n',
-            'LEN|', ' ' * 2, 'OCCURENCES', ' ' * 2, '|NR.', '\n',
-                '-' * 30
+            "", "-" * 30, "\n",
+            "LEN|", " " * 2, "OCCURENCES", " " * 2, "|NR.", "\n",
+                "-" * 30
             )
 
         # Vypsání sloupcového grafu pomocí formátu a for cyklu
